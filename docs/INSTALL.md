@@ -20,6 +20,11 @@ $ bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
 安装过程中，需要回答一些问题，如安装路径、是否将 Miniconda 添加到环境变量等。安装完成后，需要重启终端，使环境变量生效。
+conda 可能需要init
+```bash
+~/miniconda3/bin/conda init
+source ~/.bashrc
+```
 
 可以使用以下命令来验证 Miniconda 是否安装成功：
 
